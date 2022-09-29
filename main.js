@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     object3.scene.position.set(0, -0.4, 0);
 
     const object4 = await loadGLTF('./landminev2.gltf');
-    raccoon.scene.scale.set(0.004, 0.004, 0.004);
+    raccoon.scene.scale.set(0.001, 0.001, 0.001);
     object4.scene.position.set(0, -0.4, 0);
 
     const object5 = await loadGLTF('./mortar.gltf');
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     object5.scene.position.set(0, -0.4, 0);
 
     const object6 = await loadGLTF('./rusted.gltf');
-    raccoon.scene.scale.set(0.0015, 0.0015, 0.0015);
+    raccoon.scene.scale.set(0.0009, 0.0009, 0.0009);
     object6.scene.position.set(0, -0.4, 0);
 
     const raccoonAnchor = mindarThree.addAnchor(0);
