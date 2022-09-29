@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //const raccoon = await loadGLTF('/assets/landmine.gltf');
      //raccoon.scene.scale.set(0.0055, 0.0055, 0.0055);
     //raccoon.scene.position.set(0, -0.4, 0);
-    const raccoon = await loadGLTF('./rusted.gltf');
+    const raccoon = await loadGLTF('./landmine.gltf');
     raccoon.scene.scale.set(0.004, 0.004, 0.004);
     raccoon.scene.position.set(0, -0.4, 0);
 
