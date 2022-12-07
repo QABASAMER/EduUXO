@@ -17,28 +17,28 @@ document.addEventListener('DOMContentLoaded', () => {
      //raccoon.scene.scale.set(0.0055, 0.0055, 0.0055);
     //raccoon.scene.position.set(0, -0.4, 0);
 
-    const raccoon = await loadGLTF('./landmine.gltf');
+    const raccoon = await loadGLTF('./grend.gltf');
     raccoon.scene.scale.set(0.006, 0.006, 0.006);
     raccoon.scene.position.set(0, -0.4, 0);
 
-    const bear = await loadGLTF('./Grenade.gltf');
+    const bear = await loadGLTF('./landmine1.gltf');
     bear.scene.scale.set(0.1, 0.1, 0.1);
     bear.scene.position.set(0, -0.4, 0);
 
-    const object3 = await loadGLTF('./landmine-uv.gltf');
+    const object3 = await loadGLTF('./morter.gltf');
     object3.scene.scale.set(0.6, 0.6, 0.6);
     object3.scene.position.set(0, -0.4, 0);
 
-    const object4 = await loadGLTF('./landminev2.gltf');
+    const object4 = await loadGLTF('./ob1.gltf');
     object4.scene.scale.set(0.004, 0.004, 0.004);
     object4.scene.position.set(0, -0.4, 0);
 
-    const object5 = await loadGLTF('./mortar.gltf');
+    const object5 = await loadGLTF('./grend.gltf');
     object5.scene.scale.set(0.001, 0.001, 0.001);
     //object5.rotation.set(0,Math.PI/4,0);
     object5.scene.position.set(0, -0.4, 0);
 
-    const object6 = await loadGLTF('./rusted.gltf');
+    const object6 = await loadGLTF('./landmine1.gltf');
     object6.scene.scale.set(0.002, 0.002, 0.002);
     object6.scene.position.set(0, -0.4, 0);
 
